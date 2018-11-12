@@ -3,7 +3,7 @@ const env = require('./default.env')
 
 module.exports = merge(env, {
   NODE_ENV: '"dev"',
-  HORIZON_SERVER: '"https://api.alice.tokend.io"',
-  FILE_STORAGE: '"https://storage.alice.tokend.io"',
-  NETWORK_PASSPHRASE: '"Tokend Alice Network!"'
+  HORIZON_SERVER: '"http://94.130.199.64:8000"',
+  KEY_SERVER_ADMIN: '"http://94.130.199.64:8006"',
+  NETWORK_PASSPHRASE: '"TokenD Developer Network"'
 })
