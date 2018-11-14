@@ -13,7 +13,7 @@
     "dev": "node build/dev-server.js",
     "start": "npm run dev",
     "build": "node build/build.js",
-    "build.prod": "node build/build.js ./config/prod",
+    "build.prod": "node build/build.js ./config/prod.env",
     "build.staging": "node build/build.js staging",
     "build.dev": "node build/build.js dev",
     "unit": "cross-env BABEL_ENV=test karma start test/unit/karma.conf.js --single-run",
